@@ -2,6 +2,10 @@
 
 class GH_User:
 
+    def __init__(self, tokenResponse, userdataResponse):
+        self.tokenResponse = tokenResponse
+        self.userdataResponse = userdataResponse
+
     mail = '' # mail
     name = '' # GitHub Name
     gh_id = '' # GitHub ID

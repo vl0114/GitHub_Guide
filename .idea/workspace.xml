@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e332db7a-90c6-4778-8cf0-3c8e3f4b9863" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/achievements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/gdb.py" afterDir="false" />
     </list>
@@ -127,7 +125,7 @@
       <workItem from="1569564151474" duration="366000" />
       <workItem from="1569819845149" duration="12960000" />
       <workItem from="1569847357049" duration="3270000" />
-      <workItem from="1569888471390" duration="21078000" />
+      <workItem from="1569888471390" duration="21684000" />
     </task>
     <servers />
   </component>
