@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>{% title %}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./../static/bootstrap-social.css">         <!-- 변경 필요 [플라스크 연동 필요] -->
+    <link rel="stylesheet" href="./../static/assets/css/bootstrap.css">     <!-- 변경 필요 [플라스크 연동 필요] -->
+    <link rel="stylesheet" href="./../static/assets/css/docs.css">          <!-- 변경 필요 [플라스크 연동 필요] -->
+    <link rel="stylesheet" href="./../static/assets/css/font-awesome.css">  <!-- 변경 필요 [플라스크 연동 필요] -->
+
+</head>
+<body>
+<div class="wrapp">
+	<div class="row">
+
+		<div class="col-lg-5 col-md-7 col-sm-9 col-11 mx-auto">
+
+            <div class = "grid color-white">
+                <div class = "grid-body pbox">
+                    <div class="row">
+                        <div class="mx-auto">
+                            <a href="#">
+                                <img src="data:image/png;base64,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" alt="logo">
+                            </a>    <!-- img 변경 필요 [사이트 로고로 대체 해야함] -->
+		                </div>
+                        <div class="col-lg-7 col-md-8 col-sm-9 col-12 mx-auto mt-5">
+                            <button type="button" class="btn btn-block btn-social btn-github">
+                                <span class="fa fa-github"></span>Sign in
+                            </button>
+                            <button type="button" class="btn btn-block btn-social btn-github">
+                                <span class="fa fa-github"></span>Sign up
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+		</div>
+
+	</div>
+	<div class="row">
+		<div class="col-12">
+            <p class="text-muted text-center">© Temp Inc 2019</p>
+		</div>
+	</div>
+</div>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<!-- --><script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> <!-- must change url to https://cdn.jsdelivr.net/npm/vue -->
+
+<style>
+    .pbox{
+        padding: 60px 10px 60px 10px;
+    }
+    .color-white{
+        background: white;
+    }
+    .wrapp{
+        min-height: 100vh;
+        width: 100%;
+        background: #fbfcfd;
+        padding: 10% 0 2px 0;
+    }
+</style>
+
+</body>
+</html>
