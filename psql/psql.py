@@ -4,7 +4,6 @@ import meta
 
 
 class psql:
-
     print("d")
     conn = pq.connect(
         host=SECRET.DB.HOST,
@@ -18,5 +17,6 @@ class psql:
     rows = cur.fetchall()
     print(rows)
 
-
+    def send(self, q):
+        pass
 
