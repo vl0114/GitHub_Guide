@@ -20,3 +20,10 @@ class psql:
     def send(self, q):
         pass
 
+'''
+게시판
+id | title | 설명
+
+포스트
+id | title | 글 | 작성자
+'''

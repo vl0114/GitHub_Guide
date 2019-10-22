@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e332db7a-90c6-4778-8cf0-3c8e3f4b9863" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/gdb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_oauth.py" beforeDir="false" afterPath="$PROJECT_DIR$/gh_oauth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/psql/psql.py" beforeDir="false" afterPath="$PROJECT_DIR$/psql/psql.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/d.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/d.html" afterDir="false" />
     </list>
@@ -169,7 +168,12 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@257b711e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -193,8 +197,17 @@
       <workItem from="1569847357049" duration="3270000" />
       <workItem from="1569888471390" duration="21684000" />
       <workItem from="1570122137703" duration="1172000" />
-      <workItem from="1570163606702" duration="3576000" />
+      <workItem from="1570163606702" duration="3767000" />
+      <workItem from="1571703897975" duration="3184000" />
     </task>
+    <task id="LOCAL-00001" summary="add db">
+      <created>1570167238890</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570167238891</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,8 +226,12 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add db" />
+    <option name="LAST_COMMIT_MESSAGE" value="add db" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/GAM$GAM.coverage" NAME="GAM Coverage Results" MODIFIED="1569895675761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GAM$GAM.coverage" NAME="GAM Coverage Results" MODIFIED="1571710771964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GAM$db_test.coverage" NAME="db_test Coverage Results" MODIFIED="1569819939696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/psql" />
   </component>
 </project>
