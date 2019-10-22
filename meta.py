@@ -23,10 +23,14 @@ class META:
             # GitHub Login Page
             GH_LOGIN_PAGE = "/gh_login"
 
+            # GitHub Logout Page
+
+            GH_LOGOUT_PAGE = "/gh_logout"
+
             # Login callback page
             GH_REDIRECT_CODE_PAGE = "/gh_cb"
 
-
+            SESSION_CLEAR = "/session_clear"
 
     class GH_API:
         ADDRESS = 'https://api.github.com/'

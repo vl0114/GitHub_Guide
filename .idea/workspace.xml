@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e332db7a-90c6-4778-8cf0-3c8e3f4b9863" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/json/post.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/posts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/gdb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_oauth.py" beforeDir="false" afterPath="$PROJECT_DIR$/gh_oauth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meta.py" beforeDir="false" afterPath="$PROJECT_DIR$/meta.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,7 +198,7 @@
       <workItem from="1569888471390" duration="21684000" />
       <workItem from="1570122137703" duration="1172000" />
       <workItem from="1570163606702" duration="3767000" />
-      <workItem from="1571703897975" duration="3581000" />
+      <workItem from="1571703897975" duration="9756000" />
     </task>
     <task id="LOCAL-00001" summary="add db">
       <created>1570167238890</created>
@@ -210,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571711016656</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add json template">
+      <created>1571711361846</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571711361846</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,10 +243,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add db" />
     <MESSAGE value=".." />
-    <option name="LAST_COMMIT_MESSAGE" value=".." />
+    <MESSAGE value="add json template" />
+    <option name="LAST_COMMIT_MESSAGE" value="add json template" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/GAM$GAM.coverage" NAME="GAM Coverage Results" MODIFIED="1571710771964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GAM$GAM.coverage" NAME="GAM Coverage Results" MODIFIED="1571718100617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GAM$db_test.coverage" NAME="db_test Coverage Results" MODIFIED="1569819939696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/psql" />
   </component>
 </project>

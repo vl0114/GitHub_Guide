@@ -34,10 +34,11 @@ class GitHub_OAuth():
         # token request
         r = requests.post(url=META.PAGE.GITHUB_TOKEN_URL, params=self.param, headers={'Accept': 'application/json'})
         ret = r.json()
+        print(ret)
         token = ret['access_token']
-        state = ret['state']
+
 
         # user data request
         # u = requests.get(url=META.GH_API.USER, headers={'Authorization': 'token ' + token})
 
-        return {'token': token, 'state': state}
+        return {'token': token}
