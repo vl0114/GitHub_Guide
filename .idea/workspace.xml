@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e332db7a-90c6-4778-8cf0-3c8e3f4b9863" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/gdb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_oauth.py" beforeDir="false" afterPath="$PROJECT_DIR$/gh_oauth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta.py" beforeDir="false" afterPath="$PROJECT_DIR$/meta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +194,7 @@
       <workItem from="1569888471390" duration="21684000" />
       <workItem from="1570122137703" duration="1172000" />
       <workItem from="1570163606702" duration="3767000" />
-      <workItem from="1571703897975" duration="9756000" />
+      <workItem from="1571703897975" duration="10196000" />
     </task>
     <task id="LOCAL-00001" summary="add db">
       <created>1570167238890</created>
@@ -221,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571711361846</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add index.html&#10;create error.html&#10;유저 인증 구현함">
+      <created>1571718658421</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571718658421</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +247,8 @@
     <MESSAGE value="add db" />
     <MESSAGE value=".." />
     <MESSAGE value="add json template" />
-    <option name="LAST_COMMIT_MESSAGE" value="add json template" />
+    <MESSAGE value="add index.html&#10;create error.html&#10;유저 인증 구현함" />
+    <option name="LAST_COMMIT_MESSAGE" value="add index.html&#10;create error.html&#10;유저 인증 구현함" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GAM$GAM.coverage" NAME="GAM Coverage Results" MODIFIED="1571718100617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
