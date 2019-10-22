@@ -1,12 +1,14 @@
+<!-- base template for html files -->
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>{{title}}</title>
+    <title>LICENSES</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap-social.css') }}">
-
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/docs.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/font-awesome.css') }}">
 
@@ -23,16 +25,16 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="navbar-nav">
 						<li class="nav-item active">
-							 <a class="nav-link" href="#">홈</a>
+							 <a class="nav-link" href="/">홈</a>
 						</li>
                         <li class="nav-item active">
-							 <a class="nav-link" href="#">프로필</a>
+							 <a class="nav-link" href="/profile">프로필</a>
 						</li>
                         <li class="nav-item active">
-							 <a class="nav-link" href="#">배우기</a>
+							 <a class="nav-link" href="/learn">배우기</a>
 						</li>
                         <li class="nav-item active">
-							 <a class="nav-link" href="#">도전과제</a>
+							 <a class="nav-link" href="/achievements">도전과제</a>
 						</li>
 						<li class="nav-item dropdown active">
 							 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">메뉴</a>
@@ -47,20 +49,45 @@
                         </li>
 					</ul>
 				</div>
-                <a id = "login-button" class="btn btn-block btn-social btn-github m-0" target="github_login" onclick="gh_login()" style="color: #fff; width:120px;">
+                <a id = "login-button" class="btn btn-social btn-block btn-github" onclick="gh_login()" style="width:120px">
                                 <span class="fa fa-github"></span>로그인
                 </a>
-                <a id = "logout-button" class="btn btn-block btn-social btn-github m-0" onclick="gh_logout()" style="color: #fff; width:130px; display: none">
+                <a id = "logout-button" class="btn btn-social btn-block btn-github" onclick="gh_logout()" style="width:120px; display: none">
                                 <span class="fa fa-github"></span>로그아웃
                 </a>
 			</nav>
         </div>
     </div>
 
+    <div class="row">
+        <div>
+        GGuide 소스
+
+        <a href="https://github.com/vl0114/GitHub_Guide/">
+            https://github.com/vl0114/GitHub_Guide/
+        </a>
+        </div>
+        <div>
+        GGuide 라이선스
+
+        <a href="https://github.com/vl0114/GitHub_Guide/blob/master/LICENSE">
+            https://github.com/vl0114/GitHub_Guide/blob/master/LICENSE
+        </a>
+        </div>
+
+        <div>
+        GGuide 외부 라이선스
+
+        <a href="https://github.com/vl0114/GitHub_Guide/blob/master/LIB.md">
+           https://github.com/vl0114/GitHub_Guide/blob/master/LIB.md
+        </a>
+        </div>
+
+    </div>
 
 	<div class="row"> <!-- footer banner -->
-		<div class="col-12 w-100 bottom-wrapper"> <!-- 변경 필요 [색상, 배너 패딩] -->
-            <p class="text-muted text-center" style="margin-top: 10px; margin-bottom: 10px">© Temp Inc 2019</p>
+		<div class="col-12 w-100 bottom-wrapper" style="background: #838488"> <!-- 변경 필요 [색상, 배너 패딩] -->
+            <p class="text-muted text-center">© Temp Inc 2019</p>
 		</div>
 	</div>
 </div>
@@ -68,10 +95,29 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <!-- --><script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> <!-- 변경 필요 [https://cdn.jsdelivr.net/npm/vue] -->
-    <script type="text/javascript" src="{{ url_for("static", filename="login.js") }}"></script>
+<script src="{{ url_for("static", filename="login.js") }}"></script>
+
 <script>
-    reLoad();
+    let login = GH_Login.isLogin();
+
+    if(login)
+        logined();
+    else
+        logouted();
+
+    function logined() {
+        document.getElementById('login-button').style.display = 'block';
+        document.getElementById('logout-button').style.display = 'none';
+    }
+
+    function logouted() {
+        document.getElementById('login-button').style.display = 'none';
+        document.getElementById('logout-button').style.display = 'block';
+    }
+
 </script>
+
+
 
 <style>
 
@@ -81,7 +127,6 @@
     }
     .bottom-wrapper{
         position: fixed; bottom: 0;
-        background: #a0a0a0;
     }
 </style>
 

@@ -37,8 +37,4 @@ class GitHub_OAuth():
         print(ret)
         token = ret['access_token']
 
-
-        # user data request
-        # u = requests.get(url=META.GH_API.USER, headers={'Authorization': 'token ' + token})
-
         return {'token': token}

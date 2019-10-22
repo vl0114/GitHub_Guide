@@ -30,7 +30,35 @@ class META:
             # Login callback page
             GH_REDIRECT_CODE_PAGE = "/gh_cb"
 
-            SESSION_CLEAR = "/session_clear"
+
+
+            # Error page
+            ERROR_PAGE = "/error"
+
+            # Profile
+            PROFILE_PAGE = "/profile"
+
+            # Study
+            STUDY_PAGE = "/study"
+
+            # Achievement
+            ACHIEVEMENT_PAGE = "/achievement"
+
+            # LICENSES
+            LICENSE_PAGE = "/license"
+
+            # IsLogin
+            IS_LOGIN = "/islogin"
+
+            # Login Success
+            LOGIN_SUCCESS = "/login_success"
+
+        class API:
+            # Get post data, this function use for api
+            GET_POST_JSON = "/api/post/get/<group>/<post>"
+
+            # Session clear
+            SESSION_CLEAR = "/api/session_clear"
 
     class GH_API:
         ADDRESS = 'https://api.github.com/'
